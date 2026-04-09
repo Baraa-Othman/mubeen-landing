@@ -19,7 +19,7 @@ export const translations = {
       downloadBtn: "تحميل النسخة التجريبية",
       learnMore: "اكتشف المزيد",
       slogan: "صنع بأيدٍ أمينة",
-      professorNote: "تحت إشراف أستاذٍ متمرّس وذي خبرة واسعة",
+      professorNote: "تحت إشراف أستاذٍ جامعيّ متمرّس",
     },
     features: {
       sectionBadge: "أدوات الذكاء الاصطناعي",
