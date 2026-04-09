@@ -146,23 +146,13 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.9 }}
-          className="mt-16 flex items-center justify-center gap-6"
+          className="mt-16 flex items-center justify-center gap-3"
         >
-          <div className="flex -space-x-3">
-            {["#670320", "#c2a05e", "#8B5CF6", "#059669", "#0369a1"].map((color, i) => (
-              <div
-                key={i}
-                className="w-9 h-9 rounded-full border-2 border-white flex items-center justify-center text-white text-xs font-bold shadow-sm"
-                style={{ backgroundColor: color }}
-              >
-                {["أ", "س", "م", "ن", "خ"][i]}
-              </div>
-            ))}
-          </div>
-          <p className="text-sm text-gray-500" style={{ fontFamily }}>
-            <span className="font-bold text-[#670320]">{t.hero.trustedBy} +500 </span>
-            {t.hero.users}
+          <div className="w-px h-5 bg-[#c2a05e]/40" />
+          <p className="text-sm text-[#9a7a40] font-medium tracking-wide" style={{ fontFamily }}>
+            صنع بأيدٍ أمينة
           </p>
+          <div className="w-px h-5 bg-[#c2a05e]/40" />
         </motion.div>
       </div>
 
