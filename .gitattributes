@@ -1,0 +1,2 @@
+artifacts/mubeen-landing/public/mubeen-beta.apk filter=lfs diff=lfs merge=lfs -text
+attached_assets/Mubeen_Demo_Sprint1_1775729104396.apk filter=lfs diff=lfs merge=lfs -text

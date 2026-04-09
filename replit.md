@@ -25,3 +25,21 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `pnpm --filter @workspace/api-server run dev` — run API server locally
 
 See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+
+## Artifacts
+
+### Mubeen Landing Page (`artifacts/mubeen-landing`)
+- **Type**: React + Vite (presentation-first, no backend)
+- **Preview Path**: `/`
+- **Description**: Bilingual (Arabic/English) landing page for the Mubeen Arabic learning app
+- **Tech**: React, Tailwind CSS, Framer Motion, lucide-react
+- **Features**:
+  - Full RTL/LTR language toggle (Arabic default)
+  - Google Fonts: Tajawal (Arabic), Inter (English)
+  - Brand colors: Burgundy #670320, Gold #c2a05e
+  - Sections: Navbar, Hero, Features Grid, Gamification (leaderboard + shop), CTA, Footer
+  - Beta APK download button (links to `/mubeen-beta.apk` in public folder)
+- **Logo**: `/public/logo.png` — easy to swap out
+- **APK**: `/public/mubeen-beta.apk` — Beta APK file served statically
+- **i18n**: `src/i18n/translations.ts` — all content in Arabic & English
+- **Language Context**: `src/context/LanguageContext.tsx`
