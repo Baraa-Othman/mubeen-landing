@@ -18,8 +18,8 @@ export const translations = {
         "مُبيَّن هو رفيقك الذكي في رحلة إتقان الفصحى. أدوات مدعومة بالذكاء الاصطناعي وتجربة تعلّم ممتعة تجعل العربية شغفاً لا عبئاً.",
       downloadBtn: "تحميل النسخة التجريبية",
       learnMore: "اكتشف المزيد",
-      trustedBy: "يثق بنا أكثر من",
-      users: "مستخدم",
+      slogan: "صنع بأيدٍ أمينة",
+      professorNote: "تحت إشراف أستاذٍ متمرّس وذي خبرة واسعة",
     },
     features: {
       sectionBadge: "أدوات الذكاء الاصطناعي",
@@ -115,8 +115,8 @@ export const translations = {
         "Mubeen is your intelligent companion for mastering Modern Standard Arabic (Fusha). AI-powered tools and an engaging learning experience make Arabic a passion, not a burden.",
       downloadBtn: "Download Beta APK",
       learnMore: "Explore More",
-      trustedBy: "Trusted by over",
-      users: "users",
+      slogan: "Crafted with integrity",
+      professorNote: "Under the supervision of a seasoned, veteran professor",
     },
     features: {
       sectionBadge: "AI-Powered Tools",

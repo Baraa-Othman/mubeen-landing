@@ -146,13 +146,18 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.9 }}
-          className="mt-16 flex items-center justify-center gap-3"
+          className="mt-16 flex flex-col items-center gap-2"
         >
-          <div className="w-px h-5 bg-[#c2a05e]/40" />
-          <p className="text-sm text-[#9a7a40] font-medium tracking-wide" style={{ fontFamily }}>
-            صنع بأيدٍ أمينة
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-px bg-gradient-to-r from-transparent to-[#c2a05e]/50" />
+            <p className="text-sm font-semibold text-[#9a7a40] tracking-wide" style={{ fontFamily }}>
+              {t.hero.slogan}
+            </p>
+            <div className="w-8 h-px bg-gradient-to-l from-transparent to-[#c2a05e]/50" />
+          </div>
+          <p className="text-xs text-gray-400 font-medium" style={{ fontFamily }}>
+            {t.hero.professorNote}
           </p>
-          <div className="w-px h-5 bg-[#c2a05e]/40" />
         </motion.div>
       </div>
 
