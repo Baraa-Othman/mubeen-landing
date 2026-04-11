@@ -55,7 +55,7 @@ export const translations = {
     },
     gamification: {
       sectionBadge: "نظام المكافآت",
-      headline: "تنافس، ارتقِ، تتوَّج",
+      headline: "تنافس، ارتقِ، تصدَّر",
       subheadline:
         "اجعل تعلُّمك مغامرة! اكسب النقاط يومياً، وتسلّق قائمة المتصدرين، واشترِ ألقاباً حصرية تُعبّر عن مكانتك اللغوية.",
       pointsLabel: "نقطة",
@@ -152,7 +152,7 @@ export const translations = {
     },
     gamification: {
       sectionBadge: "Rewards System",
-      headline: "Compete, Rise, Be Crowned",
+      headline: "Compete, Rise, Take the Lead",
       subheadline:
         "Make your learning an adventure! Earn daily points, climb the leaderboard, and purchase exclusive titles that reflect your linguistic mastery.",
       pointsLabel: "pts",
@@ -166,17 +166,17 @@ export const translations = {
       shopDesc: "Redeem your points for unique titles",
       leaderboardTitle: "Rankings",
       players: [
-        { rank: 1, name: "Ahmad Al-Fasih", points: 12840, title: "Prince of Eloquence" },
-        { rank: 2, name: "Sara Al-Adiba", points: 10920, title: "Queen of Rhymes" },
-        { rank: 3, name: "Omar Al-Nathir", points: 9560, title: "Knight of Words" },
-        { rank: 4, name: "Noura Al-Baligha", points: 8340, title: "Sage of the Age" },
-        { rank: 5, name: "Khalid Al-Sha'ir", points: 7890, title: "Voice of Truth" },
+        { rank: 1, name: "أحمد الفصيح", points: 12840, title: "أمير البيان" },
+        { rank: 2, name: "سارة الأديبة", points: 10920, title: "ملكة القوافي" },
+        { rank: 3, name: "عمر الناثر", points: 9560, title: "فارس الكلمة" },
+        { rank: 4, name: "نورة البليغة", points: 8340, title: "حكيمة العصر" },
+        { rank: 5, name: "خالد الشاعر", points: 7890, title: "لسان الحق" },
       ],
       shopItems: [
-        { title: "Voice of Truth", price: 2000, unlocked: true },
-        { title: "Knight of Words", price: 3000, unlocked: true },
-        { title: "Prince of Eloquence", price: 5000, unlocked: false },
-        { title: "Sage of the Age", price: 8000, unlocked: false },
+        { title: "لسان الحق", price: 2000, unlocked: true },
+        { title: "فارس الكلمة", price: 3000, unlocked: true },
+        { title: "أمير البيان", price: 5000, unlocked: false },
+        { title: "حكيم العصر", price: 8000, unlocked: false },
       ],
     },
     cta: {
