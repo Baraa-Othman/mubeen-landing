@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Heart, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
@@ -36,19 +36,6 @@ export default function Footer() {
             <p className="text-white/60 leading-relaxed text-sm" style={{ fontFamily }}>
               {t.footer.tagline}
             </p>
-
-            <div className="flex items-center gap-4 mt-6">
-              {[Twitter, Instagram, Linkedin].map((Icon, i) => (
-                <motion.a
-                  key={i}
-                  href="#"
-                  whileHover={{ scale: 1.15, color: "#c2a05e" }}
-                  className="w-9 h-9 rounded-full bg-white/8 border border-white/10 flex items-center justify-center text-white/50 hover:text-[#c2a05e] hover:border-[#c2a05e]/40 transition-colors duration-200"
-                >
-                  <Icon size={16} />
-                </motion.a>
-              ))}
-            </div>
           </div>
 
           <div>
@@ -75,23 +62,21 @@ export default function Footer() {
             <h4 className="font-bold text-white mb-5 text-sm uppercase tracking-wider" style={{ fontFamily }}>
               {t.footer.contact}
             </h4>
-            <a
+            <motion.a
               href={`mailto:${t.footer.email}`}
+              whileHover={{ x: language === "ar" ? -4 : 4 }}
               className="inline-flex items-center gap-2 text-white/55 hover:text-[#c2a05e] text-sm transition-colors duration-200 group"
               style={{ fontFamily }}
             >
-              <Mail size={15} className="group-hover:text-[#c2a05e] transition-colors" />
+              <Mail size={15} className="group-hover:text-[#c2a05e] transition-colors flex-shrink-0" />
               {t.footer.email}
-            </a>
+            </motion.a>
           </div>
         </div>
 
-        <div className="border-t border-white/8 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="border-t border-white/8 mt-12 pt-8 flex items-center justify-center">
           <p className="text-white/35 text-xs" style={{ fontFamily }}>
             © {currentYear} {t.footer.appName}. {t.footer.rights}.
-          </p>
-          <p className="text-white/25 text-xs flex items-center gap-1.5" style={{ fontFamily }}>
-            Made with <Heart size={12} className="text-[#c2a05e] fill-[#c2a05e]" /> for Arabic learners
           </p>
         </div>
       </div>

@@ -45,7 +45,7 @@ export default function Navbar() {
               className="text-xl font-bold text-[#670320]"
               style={{ fontFamily: language === "ar" ? "'Tajawal', sans-serif" : "'Inter', sans-serif" }}
             >
-              {language === "ar" ? "مُبيَّن" : "Mubeen"}
+              {language === "ar" ? "مُبين" : "Mubeen"}
             </span>
           </a>
 
