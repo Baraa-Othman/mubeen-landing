@@ -32,9 +32,9 @@ export default function CTA() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={inView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.5 }}
-          className="w-16 h-16 rounded-2xl overflow-hidden mx-auto mb-8 shadow-2xl border-2 border-[#c2a05e]/40"
+          className="mx-auto mb-8 w-fit"
         >
-          <img src="/logo.png" alt="Mubeen" className="w-full h-full object-contain bg-white/10" />
+          <img src="/logo-new.png" alt="Mubeen" className="h-16 w-auto object-contain bg-white rounded-2xl px-4 py-2 shadow-2xl" />
         </motion.div>
 
         <motion.h2

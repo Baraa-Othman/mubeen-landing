@@ -22,16 +22,12 @@ export default function Footer() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-xl overflow-hidden bg-white/10 border border-[#c2a05e]/30 flex items-center justify-center">
-                <img src="/logo.png" alt="Mubeen" className="w-full h-full object-contain" />
-              </div>
-              <span
-                className="text-xl font-extrabold text-[#c2a05e]"
-                style={{ fontFamily }}
-              >
-                {t.footer.appName}
-              </span>
+            <div className="mb-5">
+              <img
+                src="/logo-new.png"
+                alt="Mubeen"
+                className="h-12 w-auto object-contain bg-white rounded-xl px-3 py-1.5"
+              />
             </div>
             <p className="text-white/60 leading-relaxed text-sm" style={{ fontFamily }}>
               {t.footer.tagline}

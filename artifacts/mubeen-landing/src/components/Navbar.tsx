@@ -33,20 +33,12 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18 py-3">
-          <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl overflow-hidden bg-[#670320] flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-              <img
-                src="/logo.png"
-                alt="Mubeen Logo"
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              className="text-xl font-bold text-[#670320]"
-              style={{ fontFamily: language === "ar" ? "'Tajawal', sans-serif" : "'Inter', sans-serif" }}
-            >
-              {language === "ar" ? "مُبين" : "Mubeen"}
-            </span>
+          <a href="#" className="flex items-center group">
+            <img
+              src="/logo-new.png"
+              alt="Mubeen Logo"
+              className="h-11 w-auto object-contain bg-white rounded-xl px-2 py-1 shadow-sm group-hover:shadow-md transition-shadow"
+            />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
