@@ -26,7 +26,7 @@ export default function Footer() {
               <img
                 src="/logo-new.png"
                 alt="Mubeen"
-                className="h-12 w-auto object-contain bg-white rounded-xl px-3 py-1.5"
+                className="h-12 w-auto object-contain"
               />
             </div>
             <p className="text-white/60 leading-relaxed text-sm" style={{ fontFamily }}>

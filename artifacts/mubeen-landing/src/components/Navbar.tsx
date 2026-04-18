@@ -37,7 +37,7 @@ export default function Navbar() {
             <img
               src="/logo-new.png"
               alt="Mubeen Logo"
-              className="h-11 w-auto object-contain bg-white rounded-xl px-2 py-1 shadow-sm group-hover:shadow-md transition-shadow"
+              className="h-11 w-auto object-contain transition-opacity group-hover:opacity-80"
             />
           </a>
 

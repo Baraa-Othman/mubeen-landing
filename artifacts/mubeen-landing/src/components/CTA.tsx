@@ -34,7 +34,7 @@ export default function CTA() {
           transition={{ duration: 0.5 }}
           className="mx-auto mb-8 w-fit"
         >
-          <img src="/logo-new.png" alt="Mubeen" className="h-16 w-auto object-contain bg-white rounded-2xl px-4 py-2 shadow-2xl" />
+          <img src="/logo-new.png" alt="Mubeen" className="h-16 w-auto object-contain drop-shadow-2xl" />
         </motion.div>
 
         <motion.h2
