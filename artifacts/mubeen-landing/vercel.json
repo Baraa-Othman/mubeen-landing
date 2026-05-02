@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "dist/public",
   "rewrites": [
     {
       "source": "/((?!mubeen-beta\\.apk|favicon\\.png|logo-new\\.png|assets/).*)",
