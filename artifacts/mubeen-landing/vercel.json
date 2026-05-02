@@ -1,5 +1,5 @@
 {
-  "installCommand": "git lfs install --local && git lfs pull && pnpm install --no-frozen-lockfile",
+  "installCommand": "curl -L --fail --max-time 120 -o public/mubeen-beta.apk https://media.githubusercontent.com/media/Baraa-Othman/mubeen-landing/main/artifacts/mubeen-landing/public/mubeen-beta.apk && pnpm install --no-frozen-lockfile",
   "outputDirectory": "dist/public",
   "rewrites": [
     {
