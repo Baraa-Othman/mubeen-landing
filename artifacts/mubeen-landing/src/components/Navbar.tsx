@@ -64,7 +64,7 @@ export default function Navbar() {
               {t.nav.toggleLang}
             </button>
             <a
-              href={`${import.meta.env.BASE_URL}mubeen-beta.apk`}
+              href="/api/download/apk"
               download="Mubeen-Beta.apk"
               className="flex items-center gap-2 px-5 py-2.5 bg-[#670320] text-white rounded-full text-sm font-semibold hover:bg-[#7a0328] transition-all duration-200 shadow-md hover:shadow-lg"
               style={{ fontFamily: language === "ar" ? "'Tajawal', sans-serif" : "'Inter', sans-serif" }}
@@ -112,7 +112,7 @@ export default function Navbar() {
                   {t.nav.toggleLang}
                 </button>
                 <a
-                  href={`${import.meta.env.BASE_URL}mubeen-beta.apk`}
+                  href="/api/download/apk"
                   download="Mubeen-Beta.apk"
                   className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-[#670320] text-white rounded-full text-sm font-semibold"
                   style={{ fontFamily: language === "ar" ? "'Tajawal', sans-serif" : "'Inter', sans-serif" }}

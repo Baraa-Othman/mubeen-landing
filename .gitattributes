@@ -2,3 +2,4 @@ artifacts/mubeen-landing/public/mubeen-beta.apk filter=lfs diff=lfs merge=lfs -t
 attached_assets/Mubeen_Demo_Sprint1_1775729104396.apk filter=lfs diff=lfs merge=lfs -text
 attached_assets/Mubeen-sprint3_1777744633395.apk filter=lfs diff=lfs merge=lfs -text
 attached_assets/Mubeen-sprint3_1777746102346.apk filter=lfs diff=lfs merge=lfs -text
+artifacts/api-server/assets/mubeen-beta.apk filter=lfs diff=lfs merge=lfs -text
