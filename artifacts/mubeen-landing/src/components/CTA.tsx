@@ -64,7 +64,7 @@ export default function CTA() {
           className="flex flex-col items-center gap-4"
         >
           <motion.a
-            href="/api/download/apk"
+            href="/mubeen-beta.apk"
             download="Mubeen-Beta.apk"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}

@@ -119,7 +119,7 @@ export default function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <motion.a
-            href="/api/download/apk"
+            href="/mubeen-beta.apk"
             download="Mubeen-Beta.apk"
             id="download"
             whileHover={{ scale: 1.05 }}
