@@ -4,8 +4,8 @@ import fs from "fs";
 
 const router = Router();
 
-const APK_PATH = path.resolve(import.meta.dirname, "../assets/Sprint4_Mubeen.apk");
-const APK_FILENAME = "Sprint4_Mubeen.apk";
+const APK_PATH = path.resolve(import.meta.dirname, "../assets/mubeen-beta.apk");
+const APK_FILENAME = "Mubeen-Beta.apk";
 
 router.get("/download/apk", (req, res) => {
   if (!fs.existsSync(APK_PATH)) {
