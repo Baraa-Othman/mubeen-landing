@@ -64,8 +64,8 @@ export default function CTA() {
           className="flex flex-col items-center gap-4"
         >
           <motion.a
-            href="/mubeen-beta.apk"
-            download="Mubeen-Beta.apk"
+            href="/Sprint4_Mubeen.apk"
+            download="Sprint4_Mubeen.apk"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             className="inline-flex items-center gap-3 px-10 py-5 bg-[#c2a05e] text-[#1a0a0f] rounded-full font-bold text-xl shadow-2xl hover:bg-[#d4b472] transition-all duration-200"
